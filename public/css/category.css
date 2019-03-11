@@ -1,0 +1,37 @@
+
+/* reset样式 */
+*,*::before,*::after{
+    margin:0px;padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+body,html{width: 100%;height: 100%;}
+ul{list-style-type: none;}
+
+a{text-decoration: none;color: gray}
+a:hover{text-decoration: none}
+input,textarea{border:none;outline: none;resize: none;appearance: none;-webkit-appearance: none;}
+
+
+
+.category_content{width: 100%}
+.category_nav{width:90%;height: 50px;margin:10px auto;}
+.icon_left{width:20px;height:20px;display: block;background:red;background-image: url(./public/images/1.jpg) no-repeat;position: absolute;left: 35px;top:15px}
+.category_search{width: 100%;height:30px;padding: 0px 50px 0 30px;}
+.category_search input{width: 100%;height:30px;background: #ddd;border-radius: 20px;}
+.icon_right{position: absolute;right: 30px;top:15px;width: 20px;height: 20px;background: blue;}
+
+/* 分类详情页 */
+.category_main{width:100%;height: 650px;border-top:1px solid gray;display: flex;overflow: hidden}
+.category_main_menu{flex:0 0 80px;height:500px;}
+.category_main_menu ul li{text-align:center;width:100%;height:50px;line-height: 50px;background:#ddd;position: relative;}
+.category_main_menu ul li a{color:black;}
+.category_main_menu ul li a:hover{text-decoration: none;cursor: pointer;}
+.category_main_menu ul li:first-child{background: white;}
+.category_main_menu ul li:first-child a{color: red}
+.category_goods{flex: 1;height: 650px;background: pink;padding: 10px 10px}
+
+.category_goods .banner img{width:100%;height: 200px;border-radius:20px}
+.goodlist .foot{width: 100%;height: 150px;}
+
+.clearfoot{float: right;}

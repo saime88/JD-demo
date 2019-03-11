@@ -1,0 +1,96 @@
+/* reset样式 */
+*,*::before,*::after{
+    margin:0px;padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+body,html{width: 100%;height: 100%;}
+ul{list-style-type: none;}
+
+a{text-decoration: none;color: gray}
+a:hover{text-decoration: none}
+input,textarea{border:none;outline: none;resize: none;appearance: none;-webkit-appearance: none;}
+
+
+/* 公共样式 */
+.content{width:100%;height: 100%px;background:#ddd;max-width: 640px;min-width: 320px;margin: 0 auto}
+.top_navbar_box{width:100%;height: 40px;position: fixed;top:0px;left:0px;z-index: 100;}
+.top_navbar{color:white;position: relative;width:100%;padding: 5px 50px;height:40px;max-width: 640px;min-width: 320px;margin: 0 auto;background: burlywood;}
+.glyphicon{position: absolute;left:15px;top: 15px}
+
+.form_research input{width:100%;height:30px;border-radius: 20px;padding-left:70px;color: black}
+.glyphicon-search{position: absolute;left: 100px;top:15px;color: gray}
+.buy_logo{position: absolute;left:65px;top:10px;width:20px;height:20px;}
+.login_r{text-align: center;position:absolute;right:10px;top:10px;}
+.login_r a{color: white}
+
+/* 轮播图样式 */
+.roll_container{width: 100%;height:414px;overflow: hidden;position: relative}
+.roll_container ul:first-child{width:1000%;height: 414px;transform:translateX(-10%);-webkit-transform:translateX(-10%) }
+.roll_container ul li{width:10%;height: 414px;float: left;}
+.roll_container ul li img{width:100%;height:414px;}
+
+/* 轮播图下面的点 */
+.roll_container ul:last-child{width: 220px;height: 6px;position: absolute;left:33%;bottom:30px;}
+
+.roll_container ul:last-child li{margin-left:20px;width:6px;height: 6px;border-radius: 3px;float:left;border:1px solid gray}
+.now{background:white}
+
+/* 菜单区域样式 */
+.menu_container{width:100%;height:200px;background: white}
+.menu_container ul{width:100%;height: 200px;border-radius: 20px;}
+.menu_container ul li{width:20%;height:100px;float:left;}
+
+.menu_container ul li a img{height:30px;width:30px;margin:20px auto;display: block}
+.menu_container ul li a p{text-align: center;width: 100%;height:20px;}
+
+/* 秒杀 */
+.promoteSale{width: 95%;height: 120px;border:1psx gray solid;margin: 10px auto}
+.clock{width:20px;height:20px;position: relative;top: -5px}
+.secondKill{width: 100%;padding: 0 10px;position: relative;}
+.secondKill .killTime{position: absolute;top:0px;left: 40px}
+.secondKill .killTime span[class="dots"]{background: white;color: black;width: 5px;height: 15px;}
+.secondKill .killTime span{width: 15px;height:15px;float:left;background: black;margin-right: 5px;color:white;text-align: center;line-height: 15px}
+.secondKill .more{float: right}
+.killsgood img{width: 20%;height: 100px;float: left;}
+
+/* 商品活动 */
+.goodlist{width: 100%;height: 400px;}
+.goodlist .big img{width: 50%;height: 200px;float: left}
+.goodlist .small img{width: 25%;height: 200px;float: left;}
+ 
+/* 每日逛 */
+.daysale{width: 100%;height: 400px;margin-top: 50px}
+.daysale div img{float: left;width: 25%;height: 200px;}
+
+/* 爱生活 */
+.lovelife{width: 100%;height: 400px;margin-top: 50px}
+.lovelife div img{float: left;width: 50%;height: 200px;}
+.classfity{width: 100%;height: 400px;}
+.classfity img{float: left;width: 25%;height: 200px;}
+
+/* 底部 */
+footer{width: 100%;position: fixed;bottom: 0px;height: 50px;background: white}
+footer div{width: 20%;height: 50px;text-align: center;float: left;}
+footer div:hover{border:1px solid black}
+
+
+/* 登录页面样式 */
+.login_content{width: 90%;height: 100%;margin: 0 auto}
+.top a{float: left;}
+.top{width: 100%;height: 50px;padding: 10px 10px}
+.top p{text-align: center;font-size: 16px}
+.login_box{width: 100%;height: 100px;}
+.login_box div{border-bottom: 1px solid gray;margin-top: 15px}
+.login_box div input[type="password"]{width: 70%}
+.login_box div span{float: right;text-align: center;width: 30%;height: 50px;padding-left: 10px}
+.login_box div span a{display: block;padding-left: 10px;border-left: 1px solid gray;height: 20px;margin-top: 15px;line-height: 20px}
+.login_box input{border: none;height: 50px;width: 100%}
+.clearpassword{position: relative;left: -110px;top: -20px;color: gray}
+.btn_login{margin-top: 50px;width: 100%;height: 100px;}
+.btn_login div{width: 100%;height: 50px;border-radius: 20px;margin-bottom: 10px;text-align: center;line-height: 50px;font-size: 18px}
+.btn_login div:first-child{background:rgba(223, 8, 15, 0.56);color:white;}
+.onelogin{border: 1px solid red;color: red}
+.btn_login .phoneregister{float: right}
+.agree{position: absolute;bottom: 50px;text-align: center;left: 0;right: 0}
+.agree a {color:blue}
